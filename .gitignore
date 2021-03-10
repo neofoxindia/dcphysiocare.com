@@ -78,7 +78,6 @@ dist
 .serverless
 
 # IDE / Editor
-.idea
 
 # Service worker
 sw.*
