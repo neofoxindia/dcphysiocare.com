@@ -1,20 +1,16 @@
 <template>
   <section>
     <div v-if="bookingPresent" class="card border-0 m-md-5 m-2">
-      <div class="card-header text-center  bg-transparent">
-        Booking
-      </div>
       <div class="card-body bg-transparent">
-        <h4>
-          Dear, <b>{{ booking.fullName }}</b>
-          <br> <br>
-          We found your booking <br> on <b>{{ booking.date }}.</b>
+        <h4> Dear, <b>{{ booking.fullName }}</b>
+          <br><br>
+          Your have booking <br> on <b>{{ booking.date }}.</b>
         </h4>
       </div>
 
       <div class="card-footer bg-transparent">
-        <button class="btn btn-warning text-dark"> call us</button>
-        <button @click="cancelAppointment" class="ml-5 btn btn-danger">cancel</button>
+        <button class="btn btn-warning text-dark">call us</button>
+        <button @click="cancelAppointment" class="ml-5 btn btn-danger text-dark">cancel</button>
       </div>
 
     </div>
@@ -117,6 +113,7 @@ export default {
 }
 
 .card {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #eee5dc;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 </style>
