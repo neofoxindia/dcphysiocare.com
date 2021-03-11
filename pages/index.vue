@@ -7,7 +7,7 @@
         <div class="row d-flex justify-content-center align-item-center" style="padding: 12vw 0">
           <div class="col-lg-6 p-0 pl-2 text-lg-left text-center">
             <h2 class="align-middle" style="font-size: calc(3vw + 4vh + 10px); margin-top: 4vw">
-              <small class="h3">YOUR</small><span class="text-warning">HEALTH</span> <br>
+              <small class="h3">YOUR</small><span class="text-info">HEALTH</span> <br>
               <small class="h3">YOUR</small><span class="text-info">JOURNEY</span>
               <small class="h2">OUR</small><span class="text-danger">CARE</span> <br>
             </h2>
