@@ -65,7 +65,7 @@ $colors: map-merge((
 $primary: #ff7096 !default;
 $secondary: #a8dadc !default;
 $success: #76c893 !default;
-$info: $cyan !default;
+$info: #48cae4 !default;
 $warning: #f6bd60 !default;
 $danger: #f28482 !default;
 $light: $gray-100 !default;
@@ -226,8 +226,9 @@ $transition-collapse: height .35s ease !default;
 // Font, line-height, and color for body text, headings, and more.
 
 // stylelint-disable value-keyword-case
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-sans-serif: 'Noto Sans JP', sans-serif;
+;
+$font-family-monospace: 'Roboto', sans-serif;
 $font-family-base: $font-family-sans-serif !default;
 // stylelint-enable value-keyword-case
 
@@ -586,10 +587,8 @@ $nav-pills-link-active-color: $component-active-color !default;
 $nav-pills-link-active-bg: $component-active-bg !default;
 
 // Navbar
-
 $navbar-padding-y: ($spacer / 2) !default;
 $navbar-padding-x: $spacer !default;
-
 $navbar-nav-link-padding-x: .5rem !default;
 
 $navbar-brand-font-size: $font-size-lg !default;
@@ -654,7 +653,6 @@ $jumbotron-bg: $gray-200 !default;
 
 
 // Cards
-
 $card-spacer-y: .75rem !default;
 $card-spacer-x: 1.25rem !default;
 $card-border-width: $border-width !default;
