@@ -5,11 +5,11 @@
       <div class="overlay"><a href='https://www.freepik.com/photos/people'></a></div>
       <div class="container">
         <div class="row d-flex justify-content-center align-item-center" style="padding: 12vw 0">
-          <div class="col-lg-6 p-0 pl-2 text-lg-left text-center">
+          <div class="col-lg-6 p-0 pl-md-3 pl-4">
             <h2 class="align-middle" style="font-size: calc(3vw + 4vh + 10px); margin-top: 4vw">
-              <span class="h2">YOUR</span><span class="text-info text-shadow">HEALTH</span> <br>
-              <span class="h2">YOUR</span><span class="text-info text-shadow">JOURNEY</span> <br>
-              <span class="h2"><s class="text-dark">Y</s>OUR</span><span class="text-danger text-shadow">CARE</span>
+              <span class="your">YOUR</span><span class="text-info text-shadow">HEALTH</span> <br>
+              <span class="your">YOUR</span><span class="text-info text-shadow">JOURNEY</span> <br>
+              <span class="your"><s class="text-warning"> Y </s>OUR</span><span class="text-danger text-shadow">CARE</span>
             </h2>
             <p class="font-weight-normal">
               Let's not wait for perfect conditions to begin. Let's begin to make perfect conditions for a healthy
@@ -198,6 +198,13 @@ export default {
 body {
   overflow-x: hidden;
 }
+
+.your{
+  letter-spacing: -2px;
+  font-size: 2rem;
+}
+
+
 
 .text-shadow {
   text-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;

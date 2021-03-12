@@ -16,7 +16,7 @@
     </div>
 
     <form v-else @submit.prevent @submit="createAppointment" class="intro-form row">
-      <h4 class="col-12 p-0"><b>#1</b> Physical Treatment</h4>
+      <h3 class="col-12 p-0 pb-4 text-center"><b>#1</b> Physical Treatment</h3>
       <div class="form-group col-lg-12 col-md-6 col-12">
         <input required type="text"
                minlength="4"
