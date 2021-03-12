@@ -31,7 +31,7 @@
 
 body {
   background: #fefefe;
-  font-family: 'Raleway', sans-serif !important;
+  font-family: 'Noto Sans JP', sans-serif !important;
   color: #555;
   font-weight: 300;
   font-size: 15px;
@@ -48,7 +48,7 @@ h1, h2, h3 {
 h4, h5, h6, p {
   color: #000000;
   font-weight: bold;
-  font-family: 'Noto Sans JP', sans-serif !important;
+  font-family: 'Raleway', sans-serif !important;
   margin: 0;
 }
 
@@ -5903,7 +5903,6 @@ input:focus, textarea:focus {
   }
 
 
-
   .dropdown-menu > li > a {
     display: block;
     padding: 6px 30px;
@@ -5912,9 +5911,6 @@ input:focus, textarea:focus {
     text-transform: uppercase;
     border: none;
   }
-
-
-
 
 
   .dropdown-menu {
