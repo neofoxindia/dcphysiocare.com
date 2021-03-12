@@ -7,17 +7,14 @@
         <div class="row d-flex justify-content-center align-item-center" style="padding: 12vw 0">
           <div class="col-lg-6 p-0 pl-md-3 pl-4">
             <h2 class="align-middle" style="font-size: calc(3vw + 4vh + 10px); margin-top: 4vw">
-              <span class="your">YOUR</span><span class="text-info text-shadow">HEALTH</span> <br>
-              <span class="your">YOUR</span><span class="text-info text-shadow">JOURNEY</span> <br>
-              <span class="your"><s class="text-warning"> Y </s>OUR</span><span class="text-danger text-shadow">CARE</span>
+              <span class="your">{{ $t('your') }}</span><span class="text-info text-shadow">{{ $t('health') }}</span>
+              <br>
+              <span class="your">{{ $t('your') }}</span><span class="text-info text-shadow">{{ $t('journey') }}</span>
+              <br>
+              <span class="your"><s class="text-warning"> Y </s>{{ $t('our') }}</span><span
+              class="text-danger text-shadow">{{ $t('care') }}</span>
             </h2>
-            <p class="font-weight-normal">
-              Let's not wait for perfect conditions to begin. Let's begin to make perfect conditions for a healthy
-              physical condition
-              <!--              We help you reach your optimal health-->
-              <!--              and gain the confidence to sustain it.-->
-            </p>
-
+            <p class="font-weight-normal">{{ $t('sub_head') }} </p>
           </div>
           <AppointmentForm class="offset-md-1 col-lg-5 col-md-10 col-11 mt-lg-0 mt-5"></AppointmentForm>
         </div>
@@ -62,11 +59,62 @@
     </div>
 
 
+    <!-- SERVICES -->
+    <section id="services" class="services bg-light">
+      <div class="container">
+
+        <div class="about-inline text-center">
+          <p>- SERVICES -</p>
+          <h3>Our Expert Medical Service </h3>
+          <p>Getting You Better Is Great, Keeping You That Way Is Better.</p>
+        </div>
+
+        <div class="services-s5 row">
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="service-content">
+              <i class="ilmosys-space-needle"></i>
+              <h3 class="text-center">DRY NEEDLING</h3>
+              <p>Dry needling is an invasive procedure where a fine needle or acupuncture needle is inserted into the
+                skin and muscle. </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="service-content">
+              <i class="ilmosys-band-aid"></i>
+              <h3 class="text-center">K TAPE</h3>
+              <p> KT is applied un-stretched over manually stretched skin above the injured muscle. This cause the skin
+                to form convolutions which lift the skin.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="service-content">
+              <i class="ilmosys-glass-water"></i>
+              <h3 class="text-center">CUPPING/HIJAMA</h3>
+              <p>Cupping is a type of alternative therapy, it involves placing cups on the skin to create suction. The
+                suction may facilitate healing with blood flow.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="service-content">
+              <i class="ilmosys-running"></i>
+              <h3 class="text-center">MOBILIZATION</h3>
+              <p>Manipulation techniques used in order to improve the mobility and
+                function of your soft tissues, joints, muscles, tendons and ligaments.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     <!--  About US  -->
     <div id="features" class="container">
       <div class="about-inline text-center">
         <div class="container">
-          <p>- FEATURES -</p>
+          <p>- EXPERTS -</p>
           <h3>Check out some of our professional<br> features! </h3>
         </div>
       </div>
@@ -97,91 +145,6 @@
     </div>
 
 
-    <!-- SERVICES -->
-    <section id="services" class="services bg-light">
-      <div class="container">
-
-        <div class="about-inline text-center">
-          <p>- SERVICES -</p>
-          <h3>Our Medical Service </h3>
-          <p>We're different from typical health checkup center. We're out to create magic. The goal is to WOW you with
-            outstanding treatment.</p>
-        </div>
-
-        <div class="services-s5 row">
-          <div class="col-md-3">
-            <div class="service-content">
-              <i class="ilmosys-astronaut"></i>
-              <h4>Robotic Surgery</h4>
-              <p>Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic
-                itudin urna interdum.</p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="service-content">
-              <i class="ilmosys-women"></i>
-              <h4>Women’s Care</h4>
-              <p>Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic
-                itudin urna interdum.</p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="service-content">
-              <i class="ilmosys-virus-2"></i>
-              <h4>Cancer Services</h4>
-              <p>Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic
-                itudin urna interdum.</p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="service-content">
-              <i class="ilmosys-first-aid"></i>
-              <h4>Emergency Services</h4>
-              <p>Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic
-                itudin urna interdum.</p>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="space50"></div>
-            <div class="service-content">
-              <i class="ilmosys-medicine-2"></i>
-              <h4>Wellness Center</h4>
-              <p>Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic
-                itudin urna interdum.</p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="space50"></div>
-            <div class="service-content">
-              <i class="ilmosys-hospital-2"></i>
-              <h4>Orthopaedic & Spine Institute</h4>
-              <p>Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic
-                itudin urna interdum.</p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="space50"></div>
-            <div class="service-content">
-              <i class="ilmosys-brain-3"></i>
-              <h4>Barin Checkup</h4>
-              <p>Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic
-                itudin urna interdum.</p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="space50"></div>
-            <div class="service-content">
-              <i class="ilmosys-heart"></i>
-              <h4>Heart Care Services</h4>
-              <p>Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic
-                itudin urna interdum.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
   </div>
 </template>
 
@@ -199,17 +162,36 @@ body {
   overflow-x: hidden;
 }
 
-.your{
-  letter-spacing: -2px;
+.your {
+  letter-spacing: -1px;
   font-size: 2rem;
 }
 
-
-
 .text-shadow {
-  text-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  text-shadow: rgba(0, 0, 0, 0.24) 0 3px 4px;
 }
 </style>
+
+<i18n>
+{
+  "en": {
+    "health": "HEALTH",
+    "your": "YOUR",
+    "our": "OUR",
+    "care": "CARE",
+    "journey": "JOURNEY",
+    "sub_head": "Let's not wait for perfect conditions to begin. Let's begin to make perfect conditions for a healthy physical condition"
+  },
+  "hi": {
+    "health": "स्वास्थ्य",
+    "your": "आपका",
+    "our": "हमारा",
+    "care": "ध्यान",
+    "journey": "जीवन",
+    "sub_head": "चलो शुरू करने के लिए सही परिस्थितियों की प्रतीक्षा नहीं करते हैं। आइए एक स्वस्थ शारीरिक स्थिति के लिए एकदम सही स्थिति बनाना शुरू करें"
+  }
+}
+</i18n>
 
 
 <!--

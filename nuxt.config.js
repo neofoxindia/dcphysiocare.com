@@ -1,3 +1,5 @@
+import {I18N} from './config/i18n'
+
 export default {
   ssr: false,
   target: 'static',
@@ -43,6 +45,7 @@ export default {
 
   modules: [
     '@nuxtjs/axios',
+    ['nuxt-i18n', I18N],
   ],
   axios: {},
   build: {}
