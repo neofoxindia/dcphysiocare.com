@@ -10,10 +10,9 @@
     <div class="row justify-content-lg-center justify-content-md-around justify-content-around">
       <div class="col-xl-2 col-lg-3 col-md-5 m-md-2 col-sm-5 card p-0 m-lg-3 m-0 mt-4 col-10">
         <picture>
-          <source type="image/jpg" srcset="/images/service/needling.jpg">
           <source type="image/webp" srcset="/images/service/needling.jpg.webp">
-          <img class="card-img-top" src="/images/service/needling.jpg.webp"
-               alt="Card image cap">
+          <source type="image/jpg" srcset="/images/service/needling.jpg">
+          <img class="card-img-top" src="/images/service/needling.jpg" alt="Card image cap">
         </picture>
         <div class="card-body">
           <h4 class="card-title">{{ $t('needle') }}</h4>
@@ -24,9 +23,9 @@
 
       <div class="col-xl-2 col-lg-3 col-md-5 m-md-2 col-sm-5 card p-0 m-lg-3 m-0 mt-4 col-10">
         <picture>
-          <source type="image/jpg" srcset="/images/service/k-tape.jpg">
           <source type="image/webp" srcset="/images/service/k-tape.jpg.webp">
-          <img class="card-img-top" src="/images/service/k-tape.jpg.webp"
+          <source type="image/jpg" srcset="/images/service/k-tape.jpg">
+          <img class="card-img-top" src="/images/service/k-tape.jpg"
                alt="Card image cap">
         </picture>
         <div class="card-body">
@@ -36,9 +35,9 @@
       </div>
       <div class="col-xl-2 col-lg-3 col-md-5 m-md-2 col-sm-5 card p-0 m-lg-3 m-0 mt-4 col-10">
         <picture>
-          <source type="image/jpg" srcset="/images/service/move.jpg">
           <source type="image/webp" srcset="/images/service/move.jpg.webp">
-          <img class="card-img-top" src="/images/service/move.jpg.webp" alt="Card image cap">
+          <source type="image/jpeg" srcset="/images/service/move.jpg">
+          <img class="card-img-top" src="/images/service/move.jpg" alt="Card image cap">
         </picture>
         <div class="card-body">
           <h4 class="card-title">{{ $t('mobile') }}</h4>
@@ -49,9 +48,9 @@
 
       <div class="col-xl-2 col-lg-3 col-md-5 m-md-2 col-sm-5 card p-0 m-lg-3 m-0 mt-4 col-10">
         <picture>
-          <source type="image/jpg" srcset="/images/service/cupping.jpg">
           <source type="image/webp" srcset="/images/service/cupping.jpg.webp">
-          <img class="card-img-top" src="/images/service/cupping.jpg.webp"
+          <source type="image/jpeg" srcset="/images/service/cupping.jpg">
+          <img class="card-img-top" src="/images/service/cupping.jpg"
                alt="Card image cap">
         </picture>
         <div class="card-body">

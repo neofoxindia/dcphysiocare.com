@@ -23,7 +23,7 @@
         <div class="container">
           <div class="row center-content">
             <div class="col-md-8 text-center">
-              <img src="images/services/2.jpg" class="pull-right img-responsive" alt="">
+<!--              <img src="images/services/2.jpg" class="pull-right img-responsive" alt="">-->
             </div>
             <div class="col-md-4">
               <h3>The Perfect Template for Medical. </h3>
