@@ -22,12 +22,8 @@ export default {
         type: 'text/css',
         href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Raleway:wght@300;400&family=Poppins:wght@300;500;700;800&display=swap'
       },
-
-
       // ---------- Fonts ----------
       {rel: 'stylesheet', type: 'text/css', href: '/css/icons/fontawesome/css/style.css'},
-      {rel: 'stylesheet', type: 'text/css', href: '/css/icons/icon2/style.css'},
-      {rel: 'stylesheet', type: 'text/css', href: '/css/ilmosys-icon.css'},
       {rel: 'stylesheet', type: 'text/css', href: '/css/style.css'},
     ],
     script: [
