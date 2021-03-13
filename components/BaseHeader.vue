@@ -40,6 +40,9 @@ export default {
   data: () => ({
     is_english_set: true
   }),
+  mounted() {
+    this.is_english_set = this.$i18n.locale === 'en';
+  },
   methods: {
     setLanguage(code) {
       this.is_english_set = code === 'en';

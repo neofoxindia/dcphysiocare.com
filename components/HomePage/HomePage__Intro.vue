@@ -12,7 +12,7 @@
             <span class="your"><s class="text-warning"> Y </s>{{ $t('our') }}</span><span
             class="text-danger">{{ $t('care') }}</span>
           </h2>
-          <p class="font-weight-normal">{{ $t('sub_head') }} </p>
+          <p class="font-weight-normal" style="line-height: 25px">{{ $t('sub_head') }} </p>
         </div>
         <AppointmentForm class="offset-md-1 col-lg-5 col-md-10 col-11 mt-lg-0 mt-5"></AppointmentForm>
       </div>

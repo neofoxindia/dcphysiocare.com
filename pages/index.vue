@@ -3,41 +3,7 @@
     <!-- INTRO -->
     <HomePage__Intro></HomePage__Intro>
     <!-- Work Done -->
-    <div id="stats2" class="bg-primary">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-6">
-            <div class="stats2-info">
-              <i class="ilmosys-business-manwoman"></i>
-              <p><span class="count">5500</span></p>
-              <h2>Healthy Clients</h2>
-            </div>
-          </div>
-          <div class="col-md-3 col-6">
-            <div class="stats2-info">
-              <i class="ilmosys-doctor"></i>
-              <p><span class="count">85</span></p>
-              <h2>Professional Doctors</h2>
-            </div>
-          </div>
-          <div class="col-md-3 col-6">
-            <div class="stats2-info">
-              <i class="ilmosys-ambulance"></i>
-              <p><span class="count">30</span></p>
-              <h2>Ambulance</h2>
-            </div>
-          </div>
-          <div class="col-md-3 col-6">
-            <div class="stats2-info">
-              <i class="ilmosys-hospital-2"></i>
-              <p><span class="count">200</span></p>
-              <h2>Rooms</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    <HomePage__works></HomePage__works>
 
     <!-- SERVICES -->
     <section id="services" class="services bg-light">
@@ -130,9 +96,10 @@
 
 <script>
 import HomePage__Intro from "~/components/HomePage/HomePage__Intro";
+import HomePage__works from "~/components/HomePage/HomePage__works";
 
 export default {
-  components: {HomePage__Intro},
+  components: {HomePage__Intro, HomePage__works},
   name: "index"
 }
 </script>
@@ -151,8 +118,6 @@ body {
   text-shadow: rgba(0, 0, 0, 0.24) 0 3px 4px;
 }
 </style>
-
-
 
 
 <!--
