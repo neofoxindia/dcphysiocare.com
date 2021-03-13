@@ -21,11 +21,11 @@
           </li>
         </ul>
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <button class="nav-link btn btn-outline mr-2 px-3" @click="$i18n.setLocale('hi')">Hindi</button>
-          </li>
-          <li class="nav-item">
-            <button class="nav-link btn btn-outline px-3" @click="$i18n.setLocale('en')">English</button>
+          <li class="nav-item form-inline">
+            <button v-if="is_english_set" class="nav-link btn btn-sm btn-outline mr-2 px-3" @click="setLanguage('hi')">
+              Hindi
+            </button>
+            <button v-else class="nav-link btn btn-sm px-3" @click="setLanguage('en')">English</button>
           </li>
         </ul>
       </div>
@@ -33,9 +33,19 @@
   </header>
 </template>
 
+<!--suppress JSUnresolvedFunction -->
 <script>
 export default {
-  name: "BaseHeader"
+  name: "BaseHeader",
+  data: () => ({
+    is_english_set: true
+  }),
+  methods: {
+    setLanguage(code) {
+      this.is_english_set = code === 'en';
+      this.$i18n.setLocale(code)
+    }
+  }
 }
 </script>
 

@@ -95,25 +95,30 @@ export default {
 
 <style scoped lang="scss">
 
-.puff-out-center {
-  animation: puff-out-center 1s cubic-bezier(.165, .84, .44, 1.000) both
-}
-
-@keyframes puff-out-center {
-  0% {
-    transform: scale(1);
-    filter: blur(0);
-    opacity: 1
-  }
-  100% {
-    transform: scale(1.5);
-    filter: blur(4px);
-    opacity: 0
-  }
-}
-
 .card {
-  background-color: #eee5dc;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #fffef7;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
 }
 </style>
+
+
+<i18n>
+{
+  "en": {
+    "health": "HEALTH",
+    "your": "YOUR",
+    "our": "OUR",
+    "care": "CARE",
+    "journey": "JOURNEY",
+    "sub_head": "Let's not wait for perfect conditions to begin. Let's begin to make perfect conditions for a healthy physical condition"
+  },
+  "hi": {
+    "health": "स्वास्थ्य",
+    "your": "आपका",
+    "our": "हमारा",
+    "care": "ध्यान",
+    "journey": "जीवन",
+    "sub_head": "चलो शुरू करने के लिए सही परिस्थितियों की प्रतीक्षा नहीं करते हैं। आइए एक स्वस्थ शारीरिक स्थिति के लिए एकदम सही स्थिति बनाना शुरू करें"
+  }
+}
+</i18n>

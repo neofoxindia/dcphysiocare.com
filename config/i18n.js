@@ -17,6 +17,7 @@ export const I18N = {
   ],
   vueI18nLoader: true,
   defaultLocale: 'en',
+  strategy: 'no_prefix',
   routes: {},
   vueI18n: {
     fallbackLocale: 'en',
