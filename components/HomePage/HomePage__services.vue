@@ -69,9 +69,15 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .card {
-  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  cursor: pointer;
+
+  &:hover {
+    transition-duration: 1s;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
 }
 </style>
 

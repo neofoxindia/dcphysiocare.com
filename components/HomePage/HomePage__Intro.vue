@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row d-flex justify-content-center align-item-center" style="padding: 12vw 0">
         <div class="col-lg-6 p-0 pl-md-3 pl-4">
-          <h2 class="align-middle" style="font-size: calc(3vw + 4vh + 10px); margin-top: 4vw">
+          <h2 class="align-middle font-weight-bold" style="font-size: calc(3vw + 4vh + 10px); margin-top: 4vw">
             <span class="your">{{ $t('your') }}</span><span class="text-info">{{ $t('health') }}</span>
             <br>
             <span class="your">{{ $t('your') }}</span><span class="text-info">{{ $t('journey') }}</span>

@@ -23,7 +23,7 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item form-inline">
             <button v-if="is_english_set" class="nav-link btn btn-sm btn-outline mr-2 px-3" @click="setLanguage('hi')">
-              Hindi
+              हिन्दी
             </button>
             <button v-else class="nav-link btn btn-sm px-3" @click="setLanguage('en')">English</button>
           </li>
