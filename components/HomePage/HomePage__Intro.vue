@@ -1,5 +1,5 @@
 <template>
-  <div id="home" class="intro intro1">
+  <div class="intro text-white">
     <div class="overlay"><a href='https://www.freepik.com/photos/people'></a></div>
     <div class="container">
       <div class="row d-flex justify-content-center align-item-center" style="padding: 12vw 0">
@@ -12,7 +12,7 @@
             <span class="your"><s class="text-warning"> Y </s>{{ $t('our') }}</span><span
             class="text-danger">{{ $t('care') }}</span>
           </h2>
-          <p class="font-weight-normal" style="line-height: 25px">{{ $t('sub_head') }} </p>
+          <p class="font-weight-normal text-white" style="line-height: 25px">{{ $t('sub_head') }} </p>
         </div>
         <AppointmentForm class="offset-md-1 col-lg-5 col-md-10 col-11 mt-lg-0 mt-5"></AppointmentForm>
       </div>
@@ -30,7 +30,11 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
+.intro {
+  background-image: url("/images/background/xray.webp");
+  background-size: cover;
+}
 
 </style>
 <i18n>

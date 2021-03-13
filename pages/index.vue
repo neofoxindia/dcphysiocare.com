@@ -4,56 +4,8 @@
     <HomePage__Intro></HomePage__Intro>
     <!-- Work Done -->
     <HomePage__works></HomePage__works>
-
     <!-- SERVICES -->
-    <section id="services" class="services bg-light">
-      <div class="container">
-
-        <div class="about-inline text-center">
-          <p>- SERVICES -</p>
-          <h3>Our Expert Medical Service </h3>
-          <p>Getting You Better Is Great, Keeping You That Way Is Better.</p>
-        </div>
-
-        <div class="services-s5 row">
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="service-content">
-              <i class="ilmosys-space-needle"></i>
-              <h3 class="text-center">DRY NEEDLING</h3>
-              <p>Dry needling is an invasive procedure where a fine needle or acupuncture needle is inserted into the
-                skin and muscle. </p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="service-content">
-              <i class="ilmosys-band-aid"></i>
-              <h3 class="text-center">K TAPE</h3>
-              <p> KT is applied un-stretched over manually stretched skin above the injured muscle. This cause the skin
-                to form convolutions which lift the skin.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="service-content">
-              <i class="ilmosys-glass-water"></i>
-              <h3 class="text-center">CUPPING/HIJAMA</h3>
-              <p>Cupping is a type of alternative therapy, it involves placing cups on the skin to create suction. The
-                suction may facilitate healing with blood flow.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="service-content">
-              <i class="ilmosys-running"></i>
-              <h3 class="text-center">MOBILIZATION</h3>
-              <p>Manipulation techniques used in order to improve the mobility and
-                function of your soft tissues, joints, muscles, tendons and ligaments.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <HomePage__services></HomePage__services>
 
 
     <!--  About US  -->
@@ -97,9 +49,10 @@
 <script>
 import HomePage__Intro from "~/components/HomePage/HomePage__Intro";
 import HomePage__works from "~/components/HomePage/HomePage__works";
+import HomePage__services from "~/components/HomePage/HomePage__services";
 
 export default {
-  components: {HomePage__Intro, HomePage__works},
+  components: {HomePage__Intro, HomePage__works, HomePage__services},
   name: "index"
 }
 </script>

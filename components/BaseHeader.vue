@@ -11,7 +11,7 @@
 
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link font-weight-bold" href="#">{{ $t('home') }}</a>
+            <a class="nav-link text-dark" href="#">{{ $t('home') }}</a>
           </li>
           <li class="nav-item">
             <a class="nav-link font-weight-bold" href="#">{{ $t('service') }}</a>

@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div v-if="bookingPresent" class="card border-0 m-md-5 m-2">
+    <div v-if="bookingPresent" class="card border-0 m-md-5 m-2 ">
       <div class="card-body bg-transparent">
         <h4> {{ $t('dear') }}, <b>{{ booking.fullName }}</b>
           <br><br>
@@ -15,7 +15,7 @@
 
     </div>
 
-    <form v-else @submit.prevent @submit="createAppointment" class="intro-form row">
+    <form v-else @submit.prevent @submit="createAppointment" class="intro-form row text-dark">
       <h3 class="col-12 p-0 pb-4 text-center"><b>#1</b> {{ $t('no_1') }}</h3>
       <div class="form-group col-lg-12 col-md-6 col-12">
         <input required type="text"
