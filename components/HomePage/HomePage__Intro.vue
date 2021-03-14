@@ -2,7 +2,7 @@
   <div class="intro text-white">
     <div class="overlay"><a href='https://www.freepik.com/photos/people'></a></div>
     <div class="container">
-      <div class="row d-flex justify-content-center align-item-center" style="padding: 12vw 0">
+      <div class="row d-flex justify-content-center align-item-center" style="padding: calc(5vw + 90px) 0">
         <div class="col-lg-6 p-0 pl-md-3 pl-4">
           <h2 class="align-middle font-weight-bold" style="font-size: calc(3vw + 4vh + 10px); margin-top: 4vw">
             <span class="your">{{ $t('your') }}</span><span class="text-info">{{ $t('health') }}</span>
@@ -50,8 +50,8 @@ export default {
   "hi": {
     "health": "स्वास्थ्य",
     "your": "आपका",
-    "our": "हमारा",
-    "care": "ध्यान",
+    "our": "हमारी",
+    "care": "देखभाल",
     "journey": "जीवन",
     "sub_head": "चलो शुरू करने के लिए सही परिस्थितियों की प्रतीक्षा नहीं करते हैं। आइए एक स्वस्थ शारीरिक स्थिति के लिए एकदम सही स्थिति बनाना शुरू करें"
   }

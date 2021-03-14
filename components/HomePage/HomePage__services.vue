@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid px-xl-5 px-lg-0 px-0">
+  <div class="container-fluid px-xl-5 px-lg-0 px-0" id="services">
 
     <div class="about-inline text-center">
       <p>- {{ $t('service') }} -</p>
@@ -12,7 +12,7 @@
         <picture>
           <source type="image/webp" srcset="/images/service/needling.jpg.webp">
           <source type="image/jpg" srcset="/images/service/needling.jpg">
-          <img class="card-img-top" src="/images/service/needling.jpg" alt="Card image cap">
+          <img height="621" width="1000" class="card-img-top" src="/images/service/needling.jpg" alt="Card image cap">
         </picture>
         <div class="card-body">
           <h4 class="card-title">{{ $t('needle') }}</h4>
@@ -25,7 +25,7 @@
         <picture>
           <source type="image/webp" srcset="/images/service/k-tape.jpg.webp">
           <source type="image/jpg" srcset="/images/service/k-tape.jpg">
-          <img class="card-img-top" src="/images/service/k-tape.jpg"
+          <img height="621" width="1000" class="card-img-top" src="/images/service/k-tape.jpg"
                alt="Card image cap">
         </picture>
         <div class="card-body">
@@ -37,7 +37,7 @@
         <picture>
           <source type="image/webp" srcset="/images/service/move.jpg.webp">
           <source type="image/jpeg" srcset="/images/service/move.jpg">
-          <img class="card-img-top" src="/images/service/move.jpg" alt="Card image cap">
+          <img height="621" width="1000" class="card-img-top" src="/images/service/move.jpg" alt="Card image cap">
         </picture>
         <div class="card-body">
           <h4 class="card-title">{{ $t('mobile') }}</h4>
@@ -50,7 +50,7 @@
         <picture>
           <source type="image/webp" srcset="/images/service/cupping.jpg.webp">
           <source type="image/jpeg" srcset="/images/service/cupping.jpg">
-          <img class="card-img-top" src="/images/service/cupping.jpg"
+          <img height="621" width="1000" class="card-img-top" src="/images/service/cupping.jpg"
                alt="Card image cap">
         </picture>
         <div class="card-body">
@@ -69,6 +69,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.card-img-top {
+  height: auto !important;
+}
+
 .card {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   cursor: pointer;

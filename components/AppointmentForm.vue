@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="appointment">
     <div v-if="bookingPresent" class="card border-0 m-md-5 m-2 ">
       <div class="card-body bg-transparent">
         <h4> {{ $t('dear') }}, <b>{{ booking.fullName }}</b>
@@ -125,8 +125,8 @@ export default {
     "fullname": "पूरा नाम",
     "email": "ईमेल",
     "phone": "फ़ोन",
-    "msg": "आपकी बुकिंग है",
-    "book": "नियुक्ति करें"
+    "msg": "आपकी बुकिंग है"
+
   }
 }
 </i18n>

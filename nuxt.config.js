@@ -1,4 +1,5 @@
-import {I18N} from './config/i18n'
+import {I18N} from './config/i18n';
+import {json_ld, meta} from './config/seo';
 
 export default {
   ssr: false,
@@ -8,11 +9,7 @@ export default {
     htmlAttrs: {
       lang: 'en'
     },
-    meta: [
-      {charset: 'utf-8'},
-      {name: 'viewport', content: 'width=device-width, initial-scale=1'},
-      {hid: 'description', name: 'description', content: ''}
-    ],
+    meta,
     link: [
       {rel: 'preconnect', href: 'https://fonts.gstatic.com'},
       // {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
@@ -27,9 +24,9 @@ export default {
       {rel: 'stylesheet', type: 'text/css', href: '/css/style.css'},
     ],
     script: [
+      json_ld,
       {src: '/js/jquery.js', body: true, defer: true},
       {src: '/js/bootstrap.min.js', body: true, defer: true},
-      // {src: '/js/main.js', body: true, defer: true},
     ]
   },
 

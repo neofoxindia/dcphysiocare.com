@@ -11,13 +11,24 @@
 
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">{{ $t('home') }}</a>
+            <a class="nav-link font-weight-bold"
+               :class="{'text-success': scrollPosition < 1000}"
+               href="#">{{ $t('home') }}</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link font-weight-bold" href="#">{{ $t('service') }}</a>
+            <a class="nav-link font-weight-bold"
+               :class="{'text-success': scrollPosition > 1000 && scrollPosition < 1800}"
+               href="#services">{{ $t('service') }}</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link font-weight-bold" href="#">{{ $t('about') }}</a>
+            <a class="nav-link font-weight-bold"
+               :class="{'text-success': scrollPosition > 1800 && scrollPosition < 2500}"
+               href="#about">{{ $t('about') }}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold"
+               :class="{'text-success': scrollPosition > 2500 && scrollPosition < 3300}"
+               href="#facilities">{{ $t('facilities') }}</a>
           </li>
         </ul>
         <ul class="navbar-nav ml-auto">
@@ -38,23 +49,36 @@
 export default {
   name: "BaseHeader",
   data: () => ({
-    is_english_set: true
+    is_english_set: true,
+    scrollPosition: null
   }),
+  destroy() {
+    window.removeEventListener('scroll', this.updateScroll)
+  },
   mounted() {
+    window.addEventListener('scroll', this.updateScroll);
     this.is_english_set = this.$i18n.locale === 'en';
   },
   methods: {
     setLanguage(code) {
       this.is_english_set = code === 'en';
       this.$i18n.setLocale(code)
+    },
+    updateScroll() {
+      this.scrollPosition = window.scrollY;
+      // console.log(this.scrollPosition);
     }
   }
 }
 </script>
 
-<style>
+<style scoped>
 .navbar {
   box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+.text-success {
+  color: #e10505 !important;
 }
 
 </style>

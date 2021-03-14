@@ -1,3 +1,6 @@
 export default {
-  "test": "स्वागत"
+  "brand": "डीसी फिजियो केयर",
+  "profession": "फ़िज़ियोथेरेपिस्ट",
+  "facilities": "सुविधाएं",
+  "book": "नियुक्ति करें"
 }

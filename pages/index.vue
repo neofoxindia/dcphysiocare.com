@@ -6,43 +6,10 @@
     <HomePage__works></HomePage__works>
     <!-- SERVICES -->
     <HomePage__services></HomePage__services>
-
-
     <!--  About US  -->
-    <div id="features" class="container">
-      <div class="about-inline text-center">
-        <div class="container">
-          <p>- EXPERTS -</p>
-          <h3>Check out some of our professional<br> features! </h3>
-        </div>
-      </div>
-
-
-      <!-- INFO CONTENT -->
-      <div class="info-content">
-        <div class="container">
-          <div class="row center-content">
-            <div class="col-md-8 text-center">
-<!--              <img src="images/services/2.jpg" class="pull-right img-responsive" alt="">-->
-            </div>
-            <div class="col-md-4">
-              <h3>The Perfect Template for Medical. </h3>
-              <ul class="list">
-                <li><i class="icon-check"></i> Nunc quis justo sed odio scelerisque.</li>
-                <li><i class="icon-check"></i> Duis tristique lorem non risus dignissim.</li>
-                <li><i class="icon-check"></i>Vivamus accumsan sem sit amet.</li>
-                <li><i class="icon-check"></i>Morbi sed orci a tortor bibendum finibus vitae.</li>
-                <li><i class="icon-check"></i>Nam sed sem quis nisi faucibus tempor.</li>
-              </ul>
-              <div class="space30"></div>
-              <a href="#" class="btn btn-lg btn-primary">Learn More <i class="icon-arrow-right"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
+    <HomePage__about></HomePage__about>
+    <!--  Facilities  -->
+    <HomePage__facilities></HomePage__facilities>
   </div>
 </template>
 
@@ -50,9 +17,15 @@
 import HomePage__Intro from "~/components/HomePage/HomePage__Intro";
 import HomePage__works from "~/components/HomePage/HomePage__works";
 import HomePage__services from "~/components/HomePage/HomePage__services";
+import HomePage__facilities from "~/components/HomePage/HomePage__facilities";
+import HomePage__about from "~/components/HomePage/HomePage__about";
 
 export default {
-  components: {HomePage__Intro, HomePage__works, HomePage__services},
+  components: {
+    HomePage__Intro, HomePage__works,
+    HomePage__services, HomePage__about,
+    HomePage__facilities
+  },
   name: "index"
 }
 </script>
