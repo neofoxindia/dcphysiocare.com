@@ -1,13 +1,13 @@
 <template>
-  <div class="container-fluid px-xl-5 px-lg-0 px-0" id="services">
+  <div class="container-fluid px-xl-5 px-lg-0 px-0 py-5" id="services">
 
-    <div class="about-inline text-center">
+    <div class="about-inline text-center py-5">
       <p>- {{ $t('service') }} -</p>
-      <h3>{{ $t('service_head') }} </h3>
+      <h2 class="display-4 font-weight-bold">{{ $t('service_head') }} </h2>
       <p>{{ $t('service_info') }}</p>
     </div>
 
-    <div class="row justify-content-lg-center justify-content-md-around justify-content-around">
+    <div class="row justify-content-lg-center justify-content-md-around justify-content-around py-5">
       <div class="col-xl-2 col-lg-3 col-md-5 m-md-2 col-sm-5 card p-0 m-lg-3 m-0 mt-4 col-10">
         <picture>
           <source type="image/webp" srcset="/images/service/needling.jpg.webp">
@@ -15,7 +15,7 @@
           <img height="621" width="1000" class="card-img-top" src="/images/service/needling.jpg" alt="Card image cap">
         </picture>
         <div class="card-body">
-          <h4 class="card-title">{{ $t('needle') }}</h4>
+          <h2 class="card-title">{{ $t('needle') }}</h2>
           <p class="card-text">{{ $t('needle_info') }}</p>
         </div>
       </div>
@@ -29,7 +29,7 @@
                alt="Card image cap">
         </picture>
         <div class="card-body">
-          <h4 class="card-title">{{ $t('k_tape') }}</h4>
+          <h2 class="card-title">{{ $t('k_tape') }}</h2>
           <p class="card-text">{{ $t('k_tape_info') }}</p>
         </div>
       </div>
@@ -40,7 +40,7 @@
           <img height="621" width="1000" class="card-img-top" src="/images/service/move.jpg" alt="Card image cap">
         </picture>
         <div class="card-body">
-          <h4 class="card-title">{{ $t('mobile') }}</h4>
+          <h2 class="card-title">{{ $t('mobile') }}</h2>
           <p class="card-text">{{ $t('mobile_info') }}</p>
         </div>
       </div>
@@ -54,7 +54,7 @@
                alt="Card image cap">
         </picture>
         <div class="card-body">
-          <h4 class="card-title">{{ $t('cup') }}</h4>
+          <h2 class="card-title">{{ $t('cup') }}</h2>
           <p class="card-text">{{ $t('cup_info') }}</p>
         </div>
       </div>
@@ -72,6 +72,13 @@ export default {
 .card-img-top {
   height: auto !important;
 }
+.card-title{
+  font-size: 1.5rem;
+}
+.card-text{
+  text-align: justify;
+}
+
 
 .card {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;

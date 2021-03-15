@@ -1,14 +1,15 @@
 <template>
   <header>
     <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
-      <NuxtLink class="navbar-brand font-weight-bold" :to="localePath({name: 'index'})">DC PhysioCare</NuxtLink>
+      <NuxtLink class="navbar-brand font-weight-bold" :to="localePath({name: 'index'})">
+        <img class="navbar-brand p-0 m-0" height="768" width="898" src="/images/logo/logo.png" alt="DC Logo">
+        Physio Care
+      </NuxtLink>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-
-
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link font-weight-bold"
@@ -81,6 +82,10 @@ export default {
   color: #e10505 !important;
 }
 
+.navbar-brand {
+  width: 50px;
+  height: auto;
+}
 </style>
 
 <i18n>
@@ -92,8 +97,8 @@ export default {
   },
   "hi": {
     "home": "गृह",
-    "service": "सेवाएं",
-    "about": "हम"
+    "service": " सेवाएं ",
+    "about": " हम "
   }
 }
 </i18n>

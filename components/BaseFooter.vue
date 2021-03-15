@@ -1,98 +1,62 @@
 <template>
-  <footer class="footer2" id="footer2">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-md-3 footerP">
+  <footer class="bg-dark py-5" id="footer">
+    <div class="container py-5">
+      <div class="row text-white">
+        <div class="col-md-3 col-6">
           <h5>RELATED LINKS</h5>
-          <ul>
+          <ul class="list">
             <li>
-              <a href="#">
-                <p>About Us</p>
-              </a>
+              <a href="#">About Us</a>
             </li>
             <li>
-              <a href="#">
-                <p>Why Buy With Us?</p>
-              </a>
+              <a href="#">Our Team</a>
             </li>
             <li>
-              <a href="#">
-                <p>Our Team</p>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <p>Contact Us</p>
-              </a>
+              <a href="#">Contact Us</a>
             </li>
           </ul>
         </div>
-
-        <div class="col-md-3 footerP">
+        <div class="col-md-3 col-6">
           <h5>OTHER LINKS</h5>
-          <ul>
+          <ul class="list">
             <li>
-              <a href="#">
-                <p>Register</p>
-              </a>
+              <a href="#">About Us</a>
             </li>
             <li>
-              <a href="#">
-                <p>Forum</p>
-              </a>
+              <a href="#">Our Team</a>
             </li>
             <li>
-              <a href="#">
-                <p>Affiliate</p>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <p>FAQ</p>
-              </a>
+              <a href="#">Contact Us</a>
             </li>
           </ul>
         </div>
 
-        <div class="col-md-3 footerP">
-          <h5>RELATED LINKS</h5>
-          <ul>
-            <li>
-              <a href="#">
-                <p>About Us</p>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <p>Why Buy With Us?</p>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <p>Our Team</p>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <p>Contact Us</p>
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-md-3 footerP">
+        <div class="col-md-6 col-12">
           <h5>About Us</h5>
-          <p>Mauris feugiat erat tellus.Far far away, behind the word mountains, far from the countries Vokalia and
+          <p class="text-white font-weight-bold py-4">Mauris feugiat erat tellus.Far far away, behind the word
+            mountains, far from the countries Vokalia and
             Consonantia.</p>
           <h5>Social</h5>
-          <div class="footer-social">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-dribbble"></a>
-            <a href="#" class="fa fa-google-plus"></a>
-            <a href="#" class="fa fa-linkedin"></a>
-            <a href="#" class="fa fa-instagram"></a>
+          <div class="footer-social d-flex">
+            <a href="#" class="fa fa-facebook text-primary"></a>
+            <a href="#" class="fa fa-twitter text-primary"></a>
+            <a href="#" class="fa fa-dribbble text-primary"></a>
+            <a href="#" class="fa fa-google-plus text-primary"></a>
+            <a href="#" class="fa fa-linkedin text-primary"></a>
+            <a href="#" class="fa fa-instagram text-primary"></a>
+          </div>
+        </div>
+        <div class="col-12 d-flex">
+          <div class="text-white font-weight-bold">
+            2021
+            <i class="fa fa-copyright text-white"></i>
+            DC Physio Care
+          </div>
+          <div class="ml-auto text-white">
+            Made with
+            <i class="fa fa-heart text-primary"></i> by
+            <a href="https://www.neofox.in"
+               class="text-white font-weight-bold">NEOFOX</a>
           </div>
         </div>
       </div>
@@ -106,6 +70,39 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+.footer-social {
+  font-size: 1.5rem;
 
+  a {
+    padding: 1rem;
+  }
+}
+
+p {
+  line-height: 1.4;
+}
+
+h5 {
+  color: #fff;
+}
+
+.bg-dark {
+  background-color: #111 !important;
+}
+
+.list {
+
+  li {
+    padding-left: 0;
+
+    a {
+      color: #aaa;
+
+      &:hover {
+        color: #fefefe;
+      }
+    }
+  }
+}
 </style>

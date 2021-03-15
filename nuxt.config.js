@@ -21,7 +21,7 @@ export default {
       },
       // ---------- Fonts ----------
       {rel: 'stylesheet', type: 'text/css', href: '/css/icons/fontawesome/css/style.css'},
-      {rel: 'stylesheet', type: 'text/css', href: '/css/style.css'},
+      // {rel: 'stylesheet', type: 'text/css', href: '/css/style.css'},
     ],
     script: [
       json_ld,

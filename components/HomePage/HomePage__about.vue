@@ -1,7 +1,7 @@
 <template>
   <div class="container py-5" id="about">
     <div class="text-center py-5">
-      <div class="container">
+      <div class="container pt-5">
         <p>- {{ $t('expert') }} -</p>
         <h2 class="display-4 font-weight-bold"><span class="text-success">{{ $t('dr') }}</span> {{ $t('name') }}</h2>
       </div>
