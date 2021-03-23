@@ -19,8 +19,6 @@ export default {
         type: 'text/css',
         href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Raleway:wght@300;400&family=Poppins:wght@300;500;700;800&display=swap'
       },
-      // ---------- Fonts ----------
-      {rel: 'stylesheet', type: 'text/css', href: '/css/icons/fontawesome/style.css'},
     ],
     script: [
       json_ld,
@@ -28,7 +26,8 @@ export default {
     ]
   },
 
-  css: ['@/assets/scss/bootstrap'],
+  css: ['@/assets/scss/bootstrap/bootstrap',
+    '@/assets/scss/font/fontawesome'],
 
   plugins: [],
 
@@ -37,7 +36,7 @@ export default {
   buildModules: [],
 
   modules: [
-    '@nuxtjs/axios',
+    // '@nuxtjs/axios',
     ['nuxt-i18n', I18N],
   ],
   axios: {},
