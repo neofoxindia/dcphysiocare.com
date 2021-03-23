@@ -1,6 +1,7 @@
 # dcphysiocare.com
 
 ## Build Setup
+[![Deploy Nuxt](https://github.com/neofoxindia/dcphysiocare.com/actions/workflows/nuxt-build.yml/badge.svg?branch=main)](https://github.com/neofoxindia/dcphysiocare.com/actions/workflows/nuxt-build.yml)
 
 ```bash
 # install dependencies

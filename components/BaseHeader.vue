@@ -2,10 +2,10 @@
   <header>
     <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
       <NuxtLink class="navbar-brand font-weight-bold" :to="localePath({name: 'index'})">
-        <img class="navbar-brand p-0 m-0" height="768" width="898" src="/images/logo/logo.png" alt="DC Logo">
-        Physio Care
+        <img class="d-inline-block align-top p-0 m-0 logo h2" height="768" width="898" src="/images/logo/logo.png"
+             alt="DC Logo">Physio Care
       </NuxtLink>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      <button class="navbar-toggler p-1 " type="button" data-toggle="collapse" data-target="#navbarNav"
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -78,11 +78,15 @@ export default {
   box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
 }
 
+a {
+  font-size: 1.2rem;
+}
+
 .text-success {
   color: #e10505 !important;
 }
 
-.navbar-brand {
+.logo {
   width: 50px;
   height: auto;
 }

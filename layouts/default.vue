@@ -1,5 +1,12 @@
 <style lang="scss">
-@import "assets/scss/bootstrap";
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('/fonts/fontawesome-webfont3295.eot?v=4.5.0');
+  src: url('/fonts/fontawesome-webfontd41d.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('/fonts/fontawesome-webfont3295.woff2?v=4.5.0') format('woff2'), url('/fonts/fontawesome-webfont3295.woff?v=4.5.0') format('woff'), url('/fonts/fontawesome-webfont3295.ttf?v=4.5.0') format('truetype'), url('/fonts/fontawesome-webfont3295.svg?v=4.5.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 body {
   background: #fefefe;
@@ -13,7 +20,8 @@ body {
 h1 {
   font-weight: 800;
 }
-h2{
+
+h2 {
   font-weight: bold;
   color: #333;
 }
@@ -135,7 +143,7 @@ ul, ol, li {
       position: absolute;
       top: 4px;
       font-size: 20px;
-      color: $primary;
+      color: #f3688d;
     }
   }
 }

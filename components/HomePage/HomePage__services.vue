@@ -71,18 +71,21 @@ export default {
 <style scoped lang="scss">
 .card-img-top {
   height: auto !important;
-}
-.card-title{
-  font-size: 1.5rem;
-}
-.card-text{
-  text-align: justify;
+  border-radius: 10px 10px 0 0;
 }
 
+.card-title {
+  font-size: 1.5rem;
+}
+
+.card-text {
+  text-align: justify;
+}
 
 .card {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   cursor: pointer;
+  border-radius: 10px;
 
   &:hover {
     transition-duration: 1s;

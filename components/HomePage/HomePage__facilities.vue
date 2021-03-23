@@ -9,13 +9,14 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6 col-md-8">
-<!--          <div class="zoom-image">-->
-<!--            <picture>-->
-<!--              <source type="image/webp" srcset="/images/user/doctorDC.jpeg.webp">-->
-<!--              <source type="image/jpg" srcset="/images/user/doctorDC.jpeg">-->
-<!--              <img width="1088" height="1053" class="card-img-top " src="/images/user/doctorDC.jpeg" alt="Card image cap">-->
-<!--            </picture>-->
-<!--          </div>-->
+          <div class="zoom-image">
+            <picture>
+              <source type="image/webp" srcset="/images/background/center.jpg.webp">
+              <source type="image/jpg" srcset="/images/background/center.jpg">
+              <img width="1000" height="663" class="card-img-top h-100" src="/images/background/center.jpg"
+                   alt="Card image cap">
+            </picture>
+          </div>
         </div>
         <div class="col-lg-4 col-md-8 offset-xl-1 offset-lg-0 mt-md-2 mt-5">
           <h2 class="text-uppercase">{{ $t('facilities') }} </h2>
@@ -74,7 +75,6 @@ export default {
 <i18n>
 {
   "en": {
-
     "fec_1": "Short Wave Diathermy",
     "fec_2": "Muscle Stimulator Traction Lumbar Cervical",
     "fec_3": "Ultrasound",
@@ -85,7 +85,6 @@ export default {
     "fec_8": "Transcutaneous Electrical Nerve Stimulation"
   },
   "hi": {
-
     "fec_1": "शॉर्ट वेव डायथर्मी",
     "fec_2": "स्नायु उत्तेजक ट्रैक्शन काठ सरवाइकल",
     "fec_3": "अल्ट्रासाउंड",

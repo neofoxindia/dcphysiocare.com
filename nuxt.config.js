@@ -20,17 +20,15 @@ export default {
         href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Raleway:wght@300;400&family=Poppins:wght@300;500;700;800&display=swap'
       },
       // ---------- Fonts ----------
-      {rel: 'stylesheet', type: 'text/css', href: '/css/icons/fontawesome/css/style.css'},
-      // {rel: 'stylesheet', type: 'text/css', href: '/css/style.css'},
+      {rel: 'stylesheet', type: 'text/css', href: '/css/icons/fontawesome/style.css'},
     ],
     script: [
       json_ld,
       {src: '/js/jquery.js', body: true, defer: true},
-      {src: '/js/bootstrap.min.js', body: true, defer: true},
     ]
   },
 
-  css: [],
+  css: ['@/assets/scss/bootstrap'],
 
   plugins: [],
 
