@@ -2,8 +2,15 @@
   <header>
     <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
       <NuxtLink class="navbar-brand font-weight-bold" :to="localePath({name: 'index'})">
-        <img class="d-inline-block align-top p-0 m-0 logo h2" height="768" width="898" src="/images/logo/logo.png"
-             alt="DC Logo">Physio Care
+        <picture>
+          <source srcset="/images/logo/logo.png.webp" type="image/webp">
+          <source srcset="/images/logo/logo.png" type="image/webp">
+          <img class="d-inline-block align-top p-0 m-0 logo"
+               height="563" width="500" src="/images/logo/logo.png"
+               alt="DC Logo">
+        </picture>
+
+        <span class="pl-5 ml-5 text-uppercase font-weight-bold">Physio Care</span>
       </NuxtLink>
       <button class="navbar-toggler p-1 " type="button" data-toggle="collapse" data-target="#navbarNav"
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,7 +18,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
+          <li class="nav-item mt-md-0 mt-5">
             <a class="nav-link font-weight-bold"
                :class="{'text-success': scrollPosition < 1000}"
                href="#">{{ $t('home') }}</a>
@@ -87,8 +94,11 @@ a {
 }
 
 .logo {
-  width: 50px;
+  top: 0;
+  width: 70px;
   height: auto;
+  position: absolute;
+  margin-top: -10px;
 }
 </style>
 

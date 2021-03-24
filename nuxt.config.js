@@ -12,7 +12,7 @@ export default {
     meta,
     link: [
       {rel: 'preconnect', href: 'https://fonts.gstatic.com'},
-      // {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
+      {rel: 'icon', type: 'image/x-icon', href: '/images/logo/logo.ico'},
       // ---------- Fonts ----------
       {
         rel: 'stylesheet',

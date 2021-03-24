@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="overflow-x: hidden">
     <!-- INTRO -->
     <HomePage__Intro></HomePage__Intro>
     <!-- Work Done -->

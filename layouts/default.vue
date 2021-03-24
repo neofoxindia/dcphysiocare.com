@@ -8,8 +8,13 @@
   font-style: normal;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
+  overflow-x: hidden;
   background: #fefefe;
   font-family: 'Noto Sans JP', sans-serif !important;
   color: #555;
@@ -149,6 +154,22 @@ ul, ol, li {
   }
 }
 
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-thumb {
+  background: #0c7171;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #79af41;
+}
+::-webkit-scrollbar-track{
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: inset 7px 10px 12px #f0f0f0;
+}
 </style>
 
 
